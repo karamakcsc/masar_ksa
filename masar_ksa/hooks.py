@@ -182,13 +182,17 @@ fixtures = [
     {"dt": "Custom Field", "filters": [
         [
             "name", "in", [
-                "Journal Entry Account-supplier_name",
+				"Journal Entry Account-is_existing_supplier",
+				"Journal Entry Account-supplier_name",
+				"Journal Entry Account-supplier_des",
                 "Journal Entry Account-supplier_tax",
+				"Journal Entry Account-column_break_zitvq",
                 "Journal Entry Account-supplier_invoice_no",
                 "Journal Entry Account-supplier_invoice_date",
                 "Journal Entry Account-service_type",
 				"Journal Entry Account-tax_base_amount",
-				"Journal Entry Account-tax_category"
+				"Journal Entry Account-tax_category",
+				"Journal Entry Account-section_break_xcdnt",
                   ]
         ]
     ]}
