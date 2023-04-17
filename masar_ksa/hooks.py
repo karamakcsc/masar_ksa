@@ -178,4 +178,18 @@ user_data_fields = [
 # auth_hooks = [
 #	"masar_ksa.auth.validate"
 # ]
-
+fixtures = [
+    {"dt": "Custom Field", "filters": [
+        [
+            "name", "in", [
+                "Journal Entry Account-supplier_name",
+                "Journal Entry Account-supplier_tax",
+                "Journal Entry Account-supplier_invoice_no",
+                "Journal Entry Account-supplier_invoice_date",
+                "Journal Entry Account-service_type",
+				"Journal Entry Account-tax_base_amount",
+				"Journal Entry Account-tax_category"
+                  ]
+        ]
+    ]}
+]
