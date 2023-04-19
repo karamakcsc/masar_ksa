@@ -48,8 +48,8 @@ def get_columns():
 	   "Supplier Invoice No: Data:200",
 	   "Supplier Invoice Date:  Data:200",
 	   "Service Type: Data:200",
-	   "Tax Base Amount: Data:200",
-	   "Tax Amount: Data:200",
+	   "Tax Base Amount: Currency:200",
+	   "Tax Amount: Currency:200",
 	   "Tax Group: Data:200"
 	   #"Status:150"
 	]

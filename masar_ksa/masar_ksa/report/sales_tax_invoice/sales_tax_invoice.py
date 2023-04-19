@@ -45,8 +45,8 @@ def get_columns():
 	   "Customer Name: Data:200",
 	   "Sales Type: Data:200",
 	   "Tax ID: Data:200",
-	   "Tax Base Amount: Data:200",
-	   "Tax Amount:  Data:200",
+	   "Tax Base Amount: Currency:200",
+	   "Tax Amount:  Currency:200",
 	   "Tax Group: Data:200",
 	   "Currency Code: Data:200"
 	   #"Status:150"
