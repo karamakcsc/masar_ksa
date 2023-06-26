@@ -30,7 +30,7 @@ def get_data(filters):
 									from `tabSales Invoice` tsi
 									inner join `tabSales Invoice Item` tsii on tsi.name = tsii.parent
 									inner join `tabSales Taxes and Charges` tstac on tsi.name = tstac.parent
-									where tsi.docstatus = 1 AND tstac.account_head = '0302030003 - ضريبه القيمه المضافه على المشتريات المحليه - MSCI'
+									where tsi.docstatus = 1 AND tstac.account_head = '0302030001 - ضريبه القيمه المضافه على المبيعات - MSCI'
  								And (posting_date BETWEEN '{_from}' AND '{to}')
 							 {conditions} GROUP by tsi.name ;""")
 	return data
